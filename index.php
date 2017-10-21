@@ -17,7 +17,7 @@
 			}
 		</script>
 	</head>
-	<body onclick="ajaxinc()">
+	<body>
 		<font size="32" color=#0071C onclick="ajaxinc()">
 			❤️<b id="likecount"><?php echo intval(file_get_contents('count.txt')); ?></b>
 		</font>	
